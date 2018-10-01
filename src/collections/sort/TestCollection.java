@@ -11,7 +11,6 @@ public class TestCollection implements Runnable {
 
 	private Comparator<Test> comparator = new TestComparator();
 
-	
 	public static class TestComparator implements Comparator<Test> {
 
 		@Override
